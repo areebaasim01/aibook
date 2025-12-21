@@ -1,19 +1,49 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+ros2:
+  label: ROS 2
+  description: Robot Operating System 2 tutorials and insights
+  permalink: /ros2
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+physical-ai:
+  label: Physical AI
+  description: AI systems that interact with the physical world
+  permalink: /physical-ai
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+humanoid:
+  label: Humanoid Robotics
+  description: Bipedal and humanoid robot development
+  permalink: /humanoid
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+simulation:
+  label: Simulation
+  description: Digital twins, Gazebo, and Unity simulation
+  permalink: /simulation
+
+vla:
+  label: VLA
+  description: Vision-Language-Action models and systems
+  permalink: /vla
+
+isaac:
+  label: NVIDIA Isaac
+  description: NVIDIA Isaac platform tutorials
+  permalink: /isaac
+
+navigation:
+  label: Navigation
+  description: Robot navigation and SLAM
+  permalink: /navigation
+
+llm:
+  label: LLM Robotics
+  description: Large Language Models for robot control
+  permalink: /llm
+
+tutorial:
+  label: Tutorial
+  description: Step-by-step learning guides
+  permalink: /tutorial
+
+announcement:
+  label: Announcement
+  description: Course updates and news
+  permalink: /announcement

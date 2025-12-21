@@ -1,0 +1,62 @@
+{
+    "name": "Physical AI & Humanoid Robotics",
+    "short_name": "Physical AI",
+    "description": "AI-Native Textbook for mastering Physical AI and Humanoid Robotics",
+    "start_url": "/ai-native-book/",
+    "scope": "/ai-native-book/",
+    "display": "standalone",
+    "background_color": "#0a0a0f",
+    "theme_color": "#00d4ff",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/ai-native-book/img/icons/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/ai-native-book/img/icons/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/ai-native-book/img/icons/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/ai-native-book/img/icons/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/ai-native-book/img/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/ai-native-book/img/icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/ai-native-book/img/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "categories": [
+        "education",
+        "books",
+        "technology"
+    ],
+    "screenshots": [],
+    "prefer_related_applications": false
+}

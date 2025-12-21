@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  rag-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - QDRANT_URL=${QDRANT_URL}
+      - QDRANT_API_KEY=${QDRANT_API_KEY}
+      - NEON_DATABASE_URL=${NEON_DATABASE_URL}
+      - ENVIRONMENT=production
+      - CORS_ORIGINS=https://your-docusaurus-site.com
+    volumes:
+      - ../docs:/app/docs:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Optional: Local Qdrant for development
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    profiles:
+      - local
+
+volumes:
+  qdrant_storage:

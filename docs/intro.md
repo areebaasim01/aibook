@@ -1,199 +1,176 @@
 ---
+sidebar_label: "Welcome"
 sidebar_position: 1
-title: Welcome to Physical AI & Humanoid Robotics
-description: An AI-Native Textbook designed for the future of Human-Agent-Robot symbiosis
-keywords: [physical ai, humanoid robotics, ai agents, machine learning, robotics]
+title: "Physical AI & Humanoid Robotics"
+description: "An AI-Native Textbook for the Future of Human-Robot Symbiosis"
+keywords: [physical ai, humanoid robotics, ros2, nvidia isaac, vla]
 ---
 
 # 🤖 Physical AI & Humanoid Robotics
 
-> *An AI-Native Textbook for the Partnership Between Humans, Software Agents, and Physical Robots*
+> *An AI-Native Textbook for Building Intelligent Robot Systems*
 
 ---
 
-## Welcome to the Future
+## Welcome to the Future of Robotics
 
-Welcome to **Physical AI & Humanoid Robotics**, a comprehensive AI-Native textbook designed to prepare you for the rapidly evolving landscape where intelligent software meets physical machines. This curriculum represents a new paradigm in technical education—one specifically designed for **AI-assisted learning** and the **Future of Work**.
-
-<div className="learning-objectives">
-
-### 🎯 What You'll Learn
-
-By completing this curriculum, you will be able to:
-
-- **Understand** the fundamental principles of Physical AI and embodied intelligence
-- **Design** AI agent architectures that interface with physical robot systems
-- **Implement** sensor integration, motor control, and perception pipelines
-- **Build** natural language interfaces for human-robot interaction
-- **Deploy** safe, ethical, and production-ready physical AI systems
-
-</div>
+This comprehensive curriculum teaches you to build **Physical AI systems**—intelligent robots that see, think, and act in the real world. Designed for **AI-assisted learning** with Claude Code & Agents, every chapter combines rigorous theory with deployable code.
 
 ---
 
-## 🧠 Why AI-Native Learning?
+## 📚 Curriculum Overview
 
-This textbook is built from the ground up for a new era of education. Here's what makes it different:
-
-### 🤝 Human-Agent-Robot Symbiosis
-
-We don't just teach you about robots—we teach you to **work alongside AI agents** (like Claude) to build, debug, and optimize robotic systems. This mirrors the real-world workflow you'll encounter in your career.
-
-### 📚 AI-Readable Content
-
-Every chapter is structured with:
-- **Clear learning objectives** that AI tutors can assess
-- **Interactive code blocks** that can be executed and modified
-- **Semantic markup** that enables AI-powered search and navigation
-
-### 💻 Practical, Deployable Code
-
-No theoretical abstractions here. Every concept includes working code examples you can run, modify, and deploy to real hardware.
+```mermaid
+graph LR
+    M1[🔌 Module 1<br/>Robotic Nervous System] --> M2[🪞 Module 2<br/>Digital Twin]
+    M2 --> M3[🧠 Module 3<br/>AI-Robot Brain]
+    M3 --> M4[🎯 Module 4<br/>Vision-Language-Action]
+```
 
 ---
 
-## 📖 Curriculum Overview
+### 🔌 [Module 1: The Robotic Nervous System](/docs/01-robotic-nervous-system/)
 
-Our curriculum is organized into **four progressive parts**:
+**Objective**: Establish the middleware foundation for robot control
 
-### 🏗️ Part 1: Foundations
+| Chapter | Topic |
+|---------|-------|
+| 1.1 | ROS 2 Architecture: Nodes, Topics, Services |
+| 1.2 | Python Bridging with rclpy |
+| 1.3 | Anatomy of a Humanoid (URDF) |
 
-Build your conceptual understanding of Physical AI:
+**Deliverable**: "Hello Robot" node + Bipedal URDF model
 
-| Chapter | Topic | Duration |
-|---------|-------|----------|
-| 1 | [Introduction to Physical AI](/docs/part-1-foundations/introduction-to-physical-ai) | 2 hours |
-| 2 | [Humanoid Robotics Fundamentals](/docs/part-1-foundations/humanoid-robotics-fundamentals) | 3 hours |
-| 3 | [AI Agent Architecture](/docs/part-1-foundations/ai-agent-architecture) | 2.5 hours |
+---
 
-### ⚙️ Part 2: Core Technologies
+### 🪞 [Module 2: The Digital Twin](/docs/02-digital-twin/)
 
-Master the essential technologies that power humanoid robots:
+**Objective**: Master physics simulation and environment building
 
-| Chapter | Topic | Duration |
-|---------|-------|----------|
-| 4 | [Sensor Integration & Perception](/docs/part-2-core-tech/sensor-integration) | 3 hours |
-| 5 | [Motor Control & Actuation](/docs/part-2-core-tech/motor-control) | 3 hours |
-| 6 | [Computer Vision for Robotics](/docs/part-2-core-tech/computer-vision) | 4 hours |
-| 7 | [Natural Language Interfaces](/docs/part-2-core-tech/natural-language-interfaces) | 2.5 hours |
+| Chapter | Topic |
+|---------|-------|
+| 2.1 | Physics Engines (Gazebo) |
+| 2.2 | Rendering & HRI (Unity) |
+| 2.3 | Sensor Simulation |
 
-### 🧠 Part 3: Intelligence Layer
+**Deliverable**: Simulation with obstacle sensing
 
-Explore the AI systems that enable intelligent behavior:
+---
 
-| Chapter | Topic | Duration |
-|---------|-------|----------|
-| 8 | [Decision Making & Planning](/docs/part-3-intelligence/decision-making) | 3 hours |
-| 9 | [Learning from Demonstration](/docs/part-3-intelligence/learning-from-demonstration) | 3.5 hours |
-| 10 | [Multi-Agent Coordination](/docs/part-3-intelligence/multi-agent-coordination) | 3 hours |
+### 🧠 [Module 3: The AI-Robot Brain](/docs/03-ai-robot-brain/)
 
-### 🚀 Part 4: Integration & Deployment
+**Objective**: Implement advanced perception and navigation
 
-Deploy and operate physical AI systems in the real world:
+| Chapter | Topic |
+|---------|-------|
+| 3.1 | Isaac Sim & Synthetic Data |
+| 3.2 | Visual SLAM & Mapping |
+| 3.3 | Nav2 Navigation |
 
-| Chapter | Topic | Duration |
-|---------|-------|----------|
-| 11 | [System Integration Patterns](/docs/part-4-integration/system-integration) | 2.5 hours |
-| 12 | [Safety & Ethics in Physical AI](/docs/part-4-integration/safety-and-ethics) | 2 hours |
-| 13 | [Deployment & Operations](/docs/part-4-integration/deployment-operations) | 2.5 hours |
+**Deliverable**: Room mapping + A-to-B navigation
+
+---
+
+### 🎯 [Module 4: Vision-Language-Action (Capstone)](/docs/04-vision-language-action/)
+
+**Objective**: Build the complete voice-to-action pipeline
+
+| Chapter | Topic |
+|---------|-------|
+| 4.1 | Voice Pipeline (Whisper) |
+| 4.2 | Cognitive Logic (LLMs) |
+| 4.3 | Capstone: Autonomous Humanoid |
+
+**Deliverable**: Voice-commanded autonomous humanoid
 
 ---
 
 ## 🛠️ Technology Stack
 
-This textbook demonstrates concepts using industry-standard tools:
-
 ```yaml
-languages:
-  - Python 3.11+
-  - TypeScript/JavaScript
-  - C++ (for performance-critical modules)
+Middleware:
+  - ROS 2 Humble
+  - rclpy (Python client)
 
-frameworks:
-  - ROS 2 (Robot Operating System)
-  - PyTorch / TensorFlow
-  - FastAPI for backend services
-  - React for control interfaces
+Simulation:
+  - Gazebo Fortress
+  - Unity + ROS-TCP
+  - NVIDIA Isaac Sim
 
-ai_tools:
-  - Claude Code for development
-  - Anthropic API for agent integration
-  - OpenCV for computer vision
+AI/ML:
+  - OpenAI Whisper (Speech)
+  - Claude/GPT-4 (Planning)
+  - PyTorch (Vision)
 
-hardware:
-  - Raspberry Pi / Jetson for edge computing
-  - Arduino for sensor interfaces
-  - Simulation: Gazebo, PyBullet
+Navigation:
+  - Nav2 Stack
+  - Isaac ROS VSLAM
 ```
 
 ---
 
 ## 👥 Who Is This For?
 
-This curriculum is designed for **technical learners** with varying backgrounds:
-
-| Background | Prerequisites | Recommended Path |
-|------------|--------------|------------------|
-| **O/A Level Students** | Basic programming concepts | Start from Part 1, Chapter 1 |
-| **Engineering Students** | Python proficiency | Start from Part 1, Chapter 2 |
-| **Software Engineers** | Backend experience | Start from Part 2, review Part 1 |
-| **Medical Technology** | Data analysis skills | Full curriculum recommended |
+| Background | Starting Point |
+|------------|----------------|
+| **Students** | Module 1, Chapter 1 |
+| **Software Engineers** | Module 1, skim basics |
+| **Robotics Engineers** | Module 3 or 4 |
+| **AI/ML Engineers** | Module 3 and 4 |
 
 ### Prerequisites
 
-To get the most from this course, you should have:
-
-- ✅ Basic programming knowledge (Python preferred)
-- ✅ Understanding of fundamental CS concepts (variables, functions, loops)
-- ✅ Comfort with command-line tools
-- ✅ Curiosity about robotics and AI!
+- ✅ Basic Python programming
+- ✅ Comfort with command line
+- ✅ Understanding of basic CS concepts
+- 🎯 Enthusiasm for robotics!
 
 ---
 
 ## 🚀 Getting Started
 
-Ready to begin your journey into Physical AI? Follow these steps:
-
-### 1. Set Up Your Environment
-
 ```bash
-# Clone the companion repository
-git clone https://github.com/panaversity/ai-native-book-code.git
+# 1. Install ROS 2
+sudo apt install ros-humble-desktop
 
-# Navigate to the project
-cd ai-native-book-code
+# 2. Create workspace
+mkdir -p ~/ros2_ws/src && cd ~/ros2_ws
 
-# Install dependencies
-pip install -r requirements.txt
+# 3. Clone course materials
+git clone https://github.com/panaversity/pai-humanoid-code.git src/
 
-# Verify installation
-python -c "import numpy; import torch; print('Ready to learn!')"
+# 4. Build and source
+colcon build
+source install/setup.bash
+
+# 5. Verify installation
+ros2 run demo_nodes_cpp talker
 ```
-
-### 2. Configure Claude Code
-
-This textbook is designed for AI-assisted learning. Set up Claude Code as your pair programming partner:
-
-```bash
-# Install Claude Code extension
-code --install-extension anthropic.claude-code
-
-# Open the course workspace
-code .
-```
-
-### 3. Start Learning
-
-Head to [Part 1: Introduction to Physical AI](/docs/part-1-foundations/introduction-to-physical-ai) to begin!
 
 ---
 
-## 📫 Support & Community
+## 📖 How to Use This Textbook
 
-Join our learning community:
+:::tip AI-Assisted Learning
+This textbook is designed for **AI-assisted learning**. Use Claude Code or GitHub Copilot alongside:
+
+1. **Ask questions** about concepts you don't understand
+2. **Debug code** with AI assistance
+3. **Extend examples** with AI-generated modifications
+:::
+
+Each chapter includes:
+- 🎯 **Learning Objectives** - What you'll master
+- 📝 **Code Examples** - Working, tested implementations
+- 🧪 **Exercises** - Practice problems
+- ⚠️ **Callouts** - Critical safety and implementation notes
+
+---
+
+## 🤝 Community & Support
 
 - 💬 **Discord**: [Panaversity Community](https://discord.gg/panaversity)
-- 🐙 **GitHub**: [Report issues](https://github.com/panaversity/ai-native-book/issues)
+- 🐙 **GitHub**: [Course Repository](https://github.com/panaversity/ai-native-book)
 - 📧 **Email**: support@panaversity.org
 
 ---
@@ -202,6 +179,6 @@ Join our learning community:
 
 **Ready to build the future of robotics?**
 
-[Start Learning →](/docs/part-1-foundations/introduction-to-physical-ai)
+[Start Module 1: Robotic Nervous System →](/docs/01-robotic-nervous-system/)
 
 </div>

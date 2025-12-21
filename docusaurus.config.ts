@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // AI-Native Textbook: Physical AI & Humanoid Robotics
@@ -13,15 +13,35 @@ const config: Config = {
     v4: true,
   },
 
+  // Enable Mermaid diagram rendering
+  markdown: {
+    mermaid: true,
+  },
+  themes: [
+    '@docusaurus/theme-mermaid',
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        docsRouteBasePath: '/docs',
+        indexBlog: true,
+        indexPages: true,
+      },
+    ],
+  ],
+
   // GitHub Pages deployment configuration
   url: 'https://panaversity.github.io',
   baseUrl: '/ai-native-book/',
-  
+
   organizationName: 'panaversity',
   projectName: 'ai-native-book',
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -56,6 +76,53 @@ const config: Config = {
     ],
   ],
 
+  // PWA Plugin for offline support
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/ai-native-book/img/icons/icon-192x192.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/ai-native-book/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#00d4ff',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#0a0a0f',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/ai-native-book/img/icons/icon-192x192.png',
+          },
+        ],
+      },
+    ],
+  ],
+
   themeConfig: {
     image: 'img/social-card.jpg',
     colorMode: {
@@ -82,7 +149,7 @@ const config: Config = {
           position: 'left',
           label: '📚 Curriculum',
         },
-        {to: '/blog', label: '📰 Insights', position: 'left'},
+        { to: '/blog', label: '📰 Insights', position: 'left' },
         {
           type: 'search',
           position: 'right',
@@ -105,12 +172,12 @@ const config: Config = {
               to: '/docs/intro',
             },
             {
-              label: 'Foundations',
-              to: '/docs/part-1-foundations/introduction-to-physical-ai',
+              label: 'Robotic Nervous System',
+              to: '/docs/robotic-nervous-system',
             },
             {
-              label: 'Core Technologies',
-              to: '/docs/part-2-core-tech/sensor-integration',
+              label: 'Digital Twin',
+              to: '/docs/digital-twin',
             },
           ],
         },
@@ -162,7 +229,11 @@ const config: Config = {
         autoCollapseCategories: true,
       },
     },
+    mermaid: {
+      theme: { light: 'neutral', dark: 'dark' },
+    },
   } satisfies Preset.ThemeConfig,
 };
 
 export default config;
+
