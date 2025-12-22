@@ -34,8 +34,8 @@ const config: Config = {
   ],
 
   // GitHub Pages deployment configuration
-  url: 'https://panaversity.github.io',
-  baseUrl: '/ai-native-book/',
+  url: 'https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app',
+  baseUrl: '/',
 
   organizationName: 'panaversity',
   projectName: 'ai-native-book',
@@ -91,12 +91,12 @@ const config: Config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/ai-native-book/img/icons/icon-192x192.png',
+            href: '/img/icons/icon-192x192.png',
           },
           {
             tagName: 'link',
             rel: 'manifest',
-            href: '/ai-native-book/manifest.json',
+            href: '/manifest.json',
           },
           {
             tagName: 'meta',
@@ -116,7 +116,7 @@ const config: Config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/ai-native-book/img/icons/icon-192x192.png',
+            href: '/img/icons/icon-192x192.png',
           },
         ],
       },
