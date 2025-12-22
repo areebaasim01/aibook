@@ -8,14 +8,14 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(180deg, #0a0a0f 0%, #0f0f1a 100%);
+  background: var(--gradient-hero);
   min-height: 90vh;
   display: flex;
   align-items: center;
 }
 
 [data-theme='light'] .heroBanner {
-  background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+  background: var(--gradient-hero);
 }
 
 /* Animated Orbs */
@@ -133,12 +133,12 @@
   gap: 0.5rem;
   padding: 0.6rem 1.2rem;
   background: rgba(0, 212, 255, 0.1);
-  border: 1px solid rgba(0, 212, 255, 0.3);
+  border: 1px solid var(--ifm-color-primary);
   border-radius: 100px;
   font-size: 0.9rem;
   font-weight: 600;
   margin-bottom: 2rem;
-  color: #00d4ff;
+  color: var(--ifm-color-primary);
   backdrop-filter: blur(10px);
 }
 
@@ -173,7 +173,7 @@
 }
 
 .heroGradient {
-  background: linear-gradient(135deg, #00d4ff 0%, #7c3aed 50%, #f59e0b 100%);
+  background: linear-gradient(135deg, var(--ifm-color-primary-light), var(--ifm-color-primary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -210,7 +210,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: linear-gradient(135deg, #00d4ff 0%, #0094b3 100%);
+  background: var(--ifm-color-primary);
   color: white !important;
   border: none;
   padding: 0.9rem 2rem;
@@ -295,7 +295,7 @@
 .statNumber {
   font-size: 2.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #00d4ff, #7c3aed);
+  background: linear-gradient(135deg, var(--ifm-color-primary-light), var(--ifm-color-primary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
