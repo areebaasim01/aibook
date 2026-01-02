@@ -12,7 +12,7 @@ keywords: [whisper, speech recognition, asr, voice control, openai]
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 - Set up OpenAI Whisper for speech-to-text
 - Implement real-time audio streaming
@@ -348,7 +348,7 @@ class StreamingTranscriber:
 
 ---
 
-## 📝 Exercises
+## Exercises
 
 ### Exercise 4.1.1: Multi-Language Support
 Extend the node to detect and transcribe multiple languages.

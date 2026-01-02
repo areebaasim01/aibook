@@ -147,9 +147,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'curriculumSidebar',
           position: 'left',
-          label: '📚 Curriculum',
+          label: 'Curriculum',
         },
-        { to: '/blog', label: '📰 Insights', position: 'left' },
+        { to: '/blog', label: 'Insights', position: 'left' },
         {
           type: 'search',
           position: 'right',
@@ -165,7 +165,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: '📚 Learn',
+          title: 'Learn',
           items: [
             {
               label: 'Introduction',
@@ -182,7 +182,7 @@ const config: Config = {
           ],
         },
         {
-          title: '🤝 Community',
+          title: 'Community',
           items: [
             {
               label: 'Panaversity',
@@ -199,7 +199,7 @@ const config: Config = {
           ],
         },
         {
-          title: '🔗 Resources',
+          title: 'Resources',
           items: [
             {
               label: 'Blog',

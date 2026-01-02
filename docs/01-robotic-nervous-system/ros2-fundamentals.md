@@ -12,7 +12,7 @@ keywords: [ros2, nodes, topics, services, actions, dds, middleware]
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 - Understand the ROS 2 computation graph
 - Differentiate between Topics, Services, and Actions
@@ -270,7 +270,7 @@ ros2 service list
 
 ---
 
-## 📝 Exercises
+## Exercises
 
 ### Exercise 1.1.1: Topic Communication
 Create two nodes:

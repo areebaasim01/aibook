@@ -12,7 +12,7 @@ keywords: [lidar, depth camera, imu, sensors, simulation, gazebo]
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 - Implement LiDAR point cloud generation in Gazebo
 - Configure depth cameras with realistic parameters
@@ -196,7 +196,7 @@ Real IMUs have significant noise. The stddev values above simulate a MEMS IMU. H
 
 ---
 
-## 🚀 Deliverable: Obstacle Sensing Robot
+## Deliverable: Obstacle Sensing Robot
 
 Complete ROS 2 node that processes sensor data:
 
@@ -362,7 +362,7 @@ rviz2 -d sensor_config.rviz
 
 ---
 
-## 📝 Exercises
+## Exercises
 
 ### Exercise 2.3.1: Sensor Fusion
 Combine LiDAR and depth camera data using a Kalman filter.

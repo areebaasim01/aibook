@@ -12,7 +12,7 @@ keywords: [isaac sim, synthetic data, replicator, domain randomization, training
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 - Set up Isaac Sim for robotics simulation
 - Use Replicator for synthetic data generation
@@ -295,7 +295,7 @@ if __name__ == "__main__":
 
 ---
 
-## 📝 Exercises
+## Exercises
 
 ### Exercise 3.1.1: Custom Objects
 Add 5 custom 3D objects (furniture) to the randomization pool.

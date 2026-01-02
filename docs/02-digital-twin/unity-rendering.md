@@ -12,7 +12,7 @@ keywords: [unity, rendering, hri, simulation, ros tcp, robotics]
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 - Set up Unity with ROS 2 communication
 - Create photorealistic environments for HRI
@@ -261,7 +261,7 @@ public class DataGenerator : MonoBehaviour
 
 ---
 
-## 📝 Exercises
+## Exercises
 
 ### Exercise 2.2.1: Living Room Scene
 Create a living room environment with furniture and spawn your robot.

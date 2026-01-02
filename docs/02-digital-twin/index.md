@@ -24,7 +24,7 @@ graph LR
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -35,7 +35,7 @@ By the end of this module, you will be able to:
 
 ---
 
-## 📚 Chapter Overview
+## Chapter Overview
 
 | Chapter | Topic | Deliverable |
 |---------|-------|-------------|
@@ -57,7 +57,7 @@ By the end of this module, you will be able to:
 
 ---
 
-## 🏗️ Simulation Stack
+## Simulation Stack
 
 ```mermaid
 graph TB
@@ -88,7 +88,7 @@ graph TB
 
 ---
 
-## 📦 Deliverables
+## Deliverables
 
 By completing this module, you will have:
 
@@ -98,7 +98,7 @@ By completing this module, you will have:
 
 ---
 
-## 📥 Code Downloads
+## Code Downloads
 
 Download the complete code examples for this module:
 

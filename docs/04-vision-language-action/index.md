@@ -27,7 +27,7 @@ graph LR
 
 ---
 
-## 🎯 Module Objectives (Capstone)
+##  Module Objectives (Capstone)
 
 This is the **capstone module** that integrates everything you've learned:
 
@@ -38,7 +38,7 @@ This is the **capstone module** that integrates everything you've learned:
 
 ---
 
-## 📚 Chapter Overview
+## Chapter Overview
 
 | Chapter | Topic | Deliverable |
 |---------|-------|-------------|
@@ -107,7 +107,7 @@ You'll need API keys for:
 
 ---
 
-## 📦 Capstone Deliverable
+## Capstone Deliverable
 
 **"The Autonomous Humanoid"** — A complete workflow where:
 
@@ -120,7 +120,7 @@ You'll need API keys for:
 
 ---
 
-## 📥 Code Downloads
+## Code Downloads
 
 Download the complete code examples for this module:
 

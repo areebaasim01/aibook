@@ -9,7 +9,7 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: '🔌 Module 1: Robotic Nervous System',
+      label: 'Module 1: Robotic Nervous System',
       link: {
         type: 'doc',
         id: 'robotic-nervous-system/index',
@@ -22,7 +22,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '🪞 Module 2: Digital Twin',
+      label: 'Module 2: Digital Twin',
       link: {
         type: 'doc',
         id: 'digital-twin/index',
@@ -35,7 +35,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '🧠 Module 3: AI-Robot Brain',
+      label: 'Module 3: AI-Robot Brain',
       link: {
         type: 'doc',
         id: 'ai-robot-brain/index',
@@ -48,7 +48,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '🎯 Module 4: Vision-Language-Action',
+      label: 'Module 4: Vision-Language-Action',
       link: {
         type: 'doc',
         id: 'vision-language-action/index',

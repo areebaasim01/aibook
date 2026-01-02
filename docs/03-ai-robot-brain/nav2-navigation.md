@@ -12,7 +12,7 @@ keywords: [nav2, navigation, path planning, costmap, behavior tree, ros2]
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 - Configure Nav2 for humanoid robot navigation
 - Set up costmaps for obstacle avoidance
@@ -184,7 +184,7 @@ global_costmap:
 
 ---
 
-## 🚀 Deliverable: A-to-B Navigation
+## Deliverable: A-to-B Navigation
 
 ```python
 #!/usr/bin/env python3
@@ -412,7 +412,7 @@ ros2 action send_goal /navigate_to_pose nav2_msgs/action/NavigateToPose \
 
 ---
 
-## 📝 Exercises
+## Exercises
 
 ### Exercise 3.3.1: Waypoint Following
 Implement a patrol behavior that continuously navigates between 4 waypoints.

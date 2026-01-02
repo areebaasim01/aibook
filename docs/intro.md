@@ -18,18 +18,18 @@ This comprehensive curriculum teaches you to build **Physical AI systems**—int
 
 ---
 
-## 📚 Curriculum Overview
+##  Curriculum Overview
 
 ```mermaid
 graph LR
-    M1[🔌 Module 1<br/>Robotic Nervous System] --> M2[🪞 Module 2<br/>Digital Twin]
-    M2 --> M3[🧠 Module 3<br/>AI-Robot Brain]
-    M3 --> M4[🎯 Module 4<br/>Vision-Language-Action]
+    M1[Module 1<br/>Robotic Nervous System] --> M2[Module 2<br/>Digital Twin]
+    M2 --> M3[Module 3<br/>AI-Robot Brain]
+    M3 --> M4[Module 4<br/>Vision-Language-Action]
 ```
 
 ---
 
-### 🔌 [Module 1: The Robotic Nervous System](/docs/01-robotic-nervous-system/)
+### [Module 1: The Robotic Nervous System](/docs/01-robotic-nervous-system/)
 
 **Objective**: Establish the middleware foundation for robot control
 
@@ -43,7 +43,7 @@ graph LR
 
 ---
 
-### 🪞 [Module 2: The Digital Twin](/docs/02-digital-twin/)
+### [Module 2: The Digital Twin](/docs/02-digital-twin/)
 
 **Objective**: Master physics simulation and environment building
 
@@ -57,7 +57,7 @@ graph LR
 
 ---
 
-### 🧠 [Module 3: The AI-Robot Brain](/docs/03-ai-robot-brain/)
+###  [Module 3: The AI-Robot Brain](/docs/03-ai-robot-brain/)
 
 **Objective**: Implement advanced perception and navigation
 
@@ -71,7 +71,7 @@ graph LR
 
 ---
 
-### 🎯 [Module 4: Vision-Language-Action (Capstone)](/docs/04-vision-language-action/)
+### [Module 4: Vision-Language-Action (Capstone)](/docs/04-vision-language-action/)
 
 **Objective**: Build the complete voice-to-action pipeline
 
@@ -85,7 +85,7 @@ graph LR
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ```yaml
 Middleware:
@@ -109,7 +109,7 @@ Navigation:
 
 ---
 
-## 👥 Who Is This For?
+## Who Is This For?
 
 | Background | Starting Point |
 |------------|----------------|
@@ -127,7 +127,7 @@ Navigation:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # 1. Install ROS 2
@@ -149,7 +149,7 @@ ros2 run demo_nodes_cpp talker
 
 ---
 
-## 📖 How to Use This Textbook
+##  How to Use This Textbook
 
 :::tip AI-Assisted Learning
 This textbook is designed for **AI-assisted learning**. Use Claude Code or GitHub Copilot alongside:
@@ -167,7 +167,7 @@ Each chapter includes:
 
 ---
 
-## 🤝 Community & Support
+## Community & Support
 
 - 💬 **Discord**: [Panaversity Community](https://discord.gg/panaversity)
 - 🐙 **GitHub**: [Course Repository](https://github.com/panaversity/ai-native-book)

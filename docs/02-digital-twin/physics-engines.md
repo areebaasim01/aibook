@@ -12,7 +12,7 @@ keywords: [gazebo, physics, simulation, collision, friction, ode, dart]
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 - Understand physics engine options (ODE, DART, Bullet)
 - Configure gravity, friction, and contact parameters
@@ -251,7 +251,7 @@ ros2 service call /world/obstacle_world/create \
 
 ---
 
-## 📝 Exercises
+## Exercises
 
 ### Exercise 2.1.1: Slope Test
 Create a ramp at 30° and test different friction values. At what `mu` does a box start sliding?

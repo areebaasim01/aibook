@@ -24,7 +24,7 @@ graph LR
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -35,7 +35,7 @@ By the end of this module, you will be able to:
 
 ---
 
-## 📚 Chapter Overview
+## Chapter Overview
 
 | Chapter | Topic | Deliverable |
 |---------|-------|-------------|
@@ -45,7 +45,7 @@ By the end of this module, you will be able to:
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 Before starting this module, ensure you have:
 
@@ -68,7 +68,7 @@ For Windows users, we recommend using **WSL2** with Ubuntu 22.04 for the best RO
 
 ---
 
-## 🏗️ Module Architecture
+## Module Architecture
 
 This module builds the foundation layer of your Physical AI stack:
 
@@ -90,7 +90,7 @@ graph TB
 
 ---
 
-## 📦 Deliverables
+##  Deliverables
 
 By completing this module, you will have created:
 
@@ -100,7 +100,7 @@ By completing this module, you will have created:
 
 ---
 
-## 📥 Code Downloads
+##  Code Downloads
 
 Download the complete code examples for this module:
 

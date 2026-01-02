@@ -12,7 +12,7 @@ keywords: [urdf, robot description, humanoid, joints, links, gazebo]
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 - Understand URDF structure and components
 - Define links with visual and collision geometry
@@ -131,7 +131,7 @@ A **joint** connects two links:
 
 ---
 
-## 🚀 Deliverable: Bipedal URDF Model
+## Deliverable: Bipedal URDF Model
 
 Complete humanoid model with torso, legs, and arms:
 
@@ -362,7 +362,7 @@ ros2 launch urdf_tutorial display.launch.py model:=pai_humanoid.urdf
 
 ---
 
-## 📝 Exercises
+## Exercises
 
 ### Exercise 1.3.1: Add Arms
 Extend the URDF to include left and right arms with shoulder, elbow, and wrist joints.

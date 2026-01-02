@@ -12,7 +12,7 @@ keywords: [rclpy, python, ros2, ai agents, hardware interface]
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 - Set up a ROS 2 Python package from scratch
 - Implement publishers, subscribers, and services in Python
@@ -62,7 +62,7 @@ source install/setup.bash
 
 ---
 
-## 🚀 Deliverable: Hello Robot Node
+##  Deliverable: Hello Robot Node
 
 Here's the complete "Hello Robot" node that serves as your first ROS 2 application:
 
@@ -366,7 +366,7 @@ For complex systems, use launch files instead of running nodes individually. See
 
 ---
 
-## 📝 Exercises
+## Exercises
 
 ### Exercise 1.2.1: Sensor Publisher
 Extend the HelloRobotNode to publish simulated IMU data on the `/imu/data` topic.

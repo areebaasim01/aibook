@@ -12,7 +12,7 @@ keywords: [vslam, visual slam, mapping, localization, isaac ros, orb-slam]
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 - Understand SLAM fundamentals (Simultaneous Localization and Mapping)
 - Implement Visual SLAM using Isaac ROS
@@ -330,7 +330,7 @@ def evaluate_map(ground_truth: np.ndarray,
 
 ---
 
-## 📝 Exercises
+## Exercises
 
 ### Exercise 3.2.1: Loop Closure
 Implement a simple loop closure detector using image similarity.

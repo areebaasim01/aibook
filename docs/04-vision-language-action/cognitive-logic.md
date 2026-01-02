@@ -12,7 +12,7 @@ keywords: [llm, gpt-4, claude, task planning, natural language, robotics]
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 - Integrate LLMs for natural language understanding
 - Design prompts for robot task decomposition
@@ -440,7 +440,7 @@ if __name__ == '__main__':
 
 ---
 
-## 📝 Exercises
+## Exercises
 
 ### Exercise 4.2.1: Multi-Step Commands
 Handle complex commands like "Make me coffee and bring it to the living room."

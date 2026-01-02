@@ -12,7 +12,7 @@ keywords: [capstone, autonomous robot, vla, voice control, humanoid]
 
 ---
 
-## 🎯 Capstone Objectives
+## Capstone Objectives
 
 Build a complete system where:
 
@@ -56,7 +56,7 @@ graph TB
 
 ---
 
-## 🚀 Complete VLA System
+## Complete VLA System
 
 ```python
 #!/usr/bin/env python3
@@ -498,7 +498,7 @@ ros2 topic echo /robot/status
 
 ---
 
-## 🎉 Congratulations!
+##  Congratulations!
 
 You have completed the **AI-Native Textbook on Physical AI & Humanoid Robotics**!
 
@@ -513,14 +513,14 @@ You have completed the **AI-Native Textbook on Physical AI & Humanoid Robotics**
 
 ### Next Steps
 
-1. 🔧 **Customize** - Adapt the system for your specific robot
-2. 🧪 **Experiment** - Try different LLM prompts and behaviors
-3. 🚀 **Deploy** - Move from simulation to real hardware
-4. 🤝 **Contribute** - Share your improvements with the community
+1.  **Customize** - Adapt the system for your specific robot
+2. **Experiment** - Try different LLM prompts and behaviors
+3.  **Deploy** - Move from simulation to real hardware
+4.  **Contribute** - Share your improvements with the community
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [ROS 2 Documentation](https://docs.ros.org/en/humble/)
 - [NVIDIA Isaac Documentation](https://developer.nvidia.com/isaac-ros)

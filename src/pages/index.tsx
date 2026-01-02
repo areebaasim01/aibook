@@ -92,7 +92,7 @@ const ModuleList: ModuleCardItem[] = [
     number: '01',
     title: 'Robotic Nervous System',
     subtitle: 'ROS 2 & Middleware',
-    icon: '🔌',
+    icon: '',
     color: '#00d4ff',
     chapters: ['ROS 2 Architecture', 'Python with rclpy', 'URDF Robot Models'],
     link: '/docs/robotic-nervous-system',
@@ -101,7 +101,7 @@ const ModuleList: ModuleCardItem[] = [
     number: '02',
     title: 'Digital Twin',
     subtitle: 'Simulation & Physics',
-    icon: '🪞',
+    icon: '',
     color: '#7c3aed',
     chapters: ['Gazebo Physics', 'Unity Rendering', 'Sensor Simulation'],
     link: '/docs/digital-twin',
@@ -110,7 +110,7 @@ const ModuleList: ModuleCardItem[] = [
     number: '03',
     title: 'AI-Robot Brain',
     subtitle: 'Perception & Navigation',
-    icon: '🧠',
+    icon: '',
     color: '#10b981',
     chapters: ['Isaac Sim', 'Visual SLAM', 'Nav2 Navigation'],
     link: '/docs/ai-robot-brain',
@@ -119,7 +119,7 @@ const ModuleList: ModuleCardItem[] = [
     number: '04',
     title: 'Vision-Language-Action',
     subtitle: 'Multimodal Intelligence',
-    icon: '🎯',
+    icon: '',
     color: '#f59e0b',
     chapters: ['Voice Pipeline', 'LLM Planning', 'Autonomous Humanoid'],
     link: '/docs/vision-language-action',
@@ -155,7 +155,7 @@ function ModulesSection() {
     <section className={styles.modules}>
       <div className="container">
         <div className={styles.sectionHeader}>
-          <span className={styles.sectionTag}>📚 Curriculum</span>
+          <span className={styles.sectionTag}>Curriculum</span>
           <Heading as="h2">Four Pillars of Physical AI</Heading>
           <p>A comprehensive journey from middleware fundamentals to autonomous humanoid systems</p>
         </div>
@@ -178,22 +178,22 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Human-Robot Symbiosis',
-    icon: '🤝',
+    icon: '',
     description: 'Build systems where humans, AI agents, and robots work together seamlessly. Focus on partnership, not replacement.',
   },
   {
     title: 'AI-Native Pedagogy',
-    icon: '✨',
+    icon: '',
     description: 'Content designed for AI-assisted learning. Every chapter is structured for interactive, hands-on exploration with Claude or GPT.',
   },
   {
     title: 'Production-Ready Code',
-    icon: '⚡',
+    icon: '',
     description: 'Theory balanced with deployable code. Build real perception, planning, and control systems that work on actual hardware.',
   },
   {
     title: 'Future-Proof Skills',
-    icon: '🚀',
+    icon: '',
     description: 'Curriculum aligned with the Future of Work. Master skills in robotics and AI that will define the next decade.',
   },
 ];
@@ -232,19 +232,19 @@ const testimonials = [
     quote: "The integration of ROS 2 with modern AI frameworks is exactly what the robotics field needed. This textbook bridges that gap beautifully.",
     author: "Dr. Sarah Chen",
     role: "Robotics Researcher, Stanford",
-    avatar: "👩‍🔬",
+    avatar: "",
   },
   {
     quote: "Finally, a resource that teaches physical AI from first principles while keeping up with the latest in LLMs and vision models.",
     author: "Marcus Williams",
     role: "Senior Engineer, Boston Dynamics",
-    avatar: "👨‍💻",
+    avatar: "",
   },
   {
     quote: "The capstone project alone is worth the entire course. Building an autonomous humanoid end-to-end was transformative.",
     author: "Yuki Tanaka",
     role: "ML Engineer, NVIDIA",
-    avatar: "👩‍🚀",
+    avatar: "",
   },
 ];
 
@@ -310,7 +310,7 @@ function CTASection() {
     <section className={styles.cta}>
       <div className="container">
         <div className={styles.ctaContent}>
-          <span className={styles.ctaEmoji}>🚀</span>
+          <span className={styles.ctaEmoji}></span>
           <Heading as="h2">Ready to Build the Future?</Heading>
           <p>
             Start your journey into Physical AI today. Learn to build robots that
