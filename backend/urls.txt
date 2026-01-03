@@ -1,0 +1,11 @@
+# Example URLs for the Book Embeddings Ingestion Pipeline
+# Add one URL per line
+
+https://docs.anthropic.com/
+https://docs.anthropic.com/claude/docs
+https://docs.anthropic.com/claude/reference
+https://docs.anthropic.com/claude/docs/getting-started-with-claude
+https://docs.anthropic.com/claude/docs/claude-is-a-stateful-chatbot
+https://aibook-hjov.vercel.app/
+
+# Add more URLs as needed for your documentation
