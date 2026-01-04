@@ -34,7 +34,7 @@ const config: Config = {
   ],
 
   // GitHub Pages deployment configuration
-  url: 'https://aibook-kohl.vercel.app/',
+  url: 'https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app',
   baseUrl: '/',
 
   organizationName: 'panaversity',
