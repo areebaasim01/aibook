@@ -85,6 +85,12 @@ python -m src.main --url-file urls.txt
 export COHERE_URLS='["https://example1.com", "https://example2.com"]'
 python -m src.main --use-env
 
+# Process all URLs from a sitemap.xml file (comprehensive documentation ingestion)
+python -m src.main --sitemap "https://aibook-wrcb.vercel.app/docs/robotic-nervous-system/sitemap.xml"
+
+# Process all URLs from a sitemap index file
+python -m src.main --sitemap-index "https://example.com/sitemap-index.xml"
+
 # Resume interrupted processing
 python -m src.main --url-file urls.txt --resume
 
@@ -100,9 +106,11 @@ python -m src.main --url-file urls.txt --log-level DEBUG
 The application supports multiple ways to specify URLs to process:
 
 1. **Command line argument**: `--url <single-url>`
-2. **File**: `--url-file <path-to-file>` (one URL per line, comments with #)
-3. **Environment variable**: `--use-env` (reads from `COHERE_URLS` environment variable)
-4. **Default file**: `urls.txt` in the current directory (if no other source specified)
+2. **Sitemap**: `--sitemap <sitemap-url>` (extracts all URLs from a sitemap.xml file)
+3. **Sitemap index**: `--sitemap-index <sitemap-index-url>` (extracts all URLs from a sitemap index file)
+4. **File**: `--url-file <path-to-file>` (one URL per line, comments with #)
+5. **Environment variable**: `--use-env` (reads from `COHERE_URLS` environment variable)
+6. **Default file**: `urls.txt` in the current directory (if no other source specified)
 
 ## Architecture
 

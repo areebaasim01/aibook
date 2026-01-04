@@ -13,7 +13,7 @@ from .config import load_config
 from .crawler import get_crawler_instance
 from .pipeline import get_pipeline_instance
 from .state_manager import get_state_manager_instance
-from .utils import setup_logging
+from .utils import setup_logging, extract_urls_from_sitemap, extract_urls_from_sitemap_index
 
 
 def load_urls_from_file(file_path: str) -> List[str]:
@@ -70,14 +70,48 @@ def load_urls_from_command_line(url: str) -> List[str]:
     return []
 
 
-def get_all_urls(url_file: str = None, env_var: bool = False, command_url: str = None) -> List[str]:
+def load_urls_from_sitemap(sitemap_url: str) -> List[str]:
     """
-    Get URLs from various sources with priority: command line > file > environment variable.
+    Load URLs from a sitemap.xml file.
+
+    Args:
+        sitemap_url: URL to the sitemap.xml file
+
+    Returns:
+        List of URLs extracted from the sitemap
+    """
+    print(f"Loading URLs from sitemap: {sitemap_url}")
+    urls = extract_urls_from_sitemap(sitemap_url)
+    print(f"Found {len(urls)} URLs in sitemap")
+    return urls
+
+
+def load_urls_from_sitemap_index(sitemap_index_url: str) -> List[str]:
+    """
+    Load URLs from a sitemap index file.
+
+    Args:
+        sitemap_index_url: URL to the sitemap index file
+
+    Returns:
+        List of all URLs from all sitemaps in the index
+    """
+    print(f"Loading URLs from sitemap index: {sitemap_index_url}")
+    urls = extract_urls_from_sitemap_index(sitemap_index_url)
+    print(f"Found {len(urls)} URLs in sitemap index")
+    return urls
+
+
+def get_all_urls(url_file: str = None, env_var: bool = False, command_url: str = None, sitemap_url: str = None, sitemap_index_url: str = None) -> List[str]:
+    """
+    Get URLs from various sources with priority: command line > sitemap > sitemap index > file > environment variable.
 
     Args:
         url_file: Path to file containing URLs
         env_var: Whether to check environment variable
         command_url: Single URL from command line
+        sitemap_url: URL to a sitemap.xml file
+        sitemap_index_url: URL to a sitemap index file
 
     Returns:
         List of URLs
@@ -86,11 +120,19 @@ def get_all_urls(url_file: str = None, env_var: bool = False, command_url: str =
     if command_url:
         return [command_url]
 
-    # Priority 2: File
+    # Priority 2: Sitemap URL
+    if sitemap_url:
+        return load_urls_from_sitemap(sitemap_url)
+
+    # Priority 3: Sitemap index URL
+    if sitemap_index_url:
+        return load_urls_from_sitemap_index(sitemap_index_url)
+
+    # Priority 4: File
     if url_file:
         return load_urls_from_file(url_file)
 
-    # Priority 3: Environment variable
+    # Priority 5: Environment variable
     if env_var:
         return load_urls_from_env()
 
@@ -111,6 +153,8 @@ def main():
     parser = argparse.ArgumentParser(description="Book Embeddings Ingestion Pipeline")
     parser.add_argument("--url", type=str, help="Single URL to process")
     parser.add_argument("--url-file", type=str, default=None, help="Path to file containing URLs (one per line)")
+    parser.add_argument("--sitemap", type=str, help="URL to sitemap.xml file to extract URLs from")
+    parser.add_argument("--sitemap-index", type=str, help="URL to sitemap index file to extract URLs from")
     parser.add_argument("--use-env", action="store_true", help="Use URLs from COHERE_URLS environment variable")
     parser.add_argument("--no-store", action="store_true", help="Don't store embeddings in vector database (dry run)")
     parser.add_argument("--resume", action="store_true", help="Resume processing from last saved state")
@@ -129,11 +173,13 @@ def main():
         logger.info("Configuration loaded successfully")
 
         # Get URLs to process
-        urls = get_all_urls(args.url_file, args.use_env, args.url)
+        urls = get_all_urls(args.url_file, args.use_env, args.url, args.sitemap, args.sitemap_index)
 
         if not urls:
             print("No URLs provided. Please specify URLs via:")
             print("  - Command line argument: --url <url>")
+            print("  - Sitemap: --sitemap <sitemap_url>")
+            print("  - Sitemap index: --sitemap-index <sitemap_index_url>")
             print("  - File: --url-file <file_path>")
             print("  - Environment variable: export COHERE_URLS='[\"url1\", \"url2\", ...]'")
             print("  - Default file: urls.txt (in current directory)")

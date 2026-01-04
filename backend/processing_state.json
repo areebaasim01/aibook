@@ -1,0 +1,289 @@
+{
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.336103",
+    "retry_count": 4,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/archive": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/archive",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.382689",
+    "retry_count": 4,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/archive: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/archive"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.425688",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors/ai-robotics": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors/ai-robotics",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.468630",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors/ai-robotics: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors/ai-robotics"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors/panaversity": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors/panaversity",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.520635",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors/panaversity: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/authors/panaversity"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/digital-twins-robotics": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/digital-twins-robotics",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.559523",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/digital-twins-robotics: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/digital-twins-robotics"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/getting-started-ros2-humble": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/getting-started-ros2-humble",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.602173",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/getting-started-ros2-humble: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/getting-started-ros2-humble"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/nvidia-isaac-robotics-ai": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/nvidia-isaac-robotics-ai",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.653049",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/nvidia-isaac-robotics-ai: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/nvidia-isaac-robotics-ai"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.701467",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/announcement": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/announcement",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.747624",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/announcement: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/announcement"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/humanoid": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/humanoid",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.795167",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/humanoid: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/humanoid"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/isaac": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/isaac",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.854030",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/isaac: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/isaac"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/llm": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/llm",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.901639",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/llm: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/llm"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/navigation": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/navigation",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:18.962878",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/navigation: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/navigation"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/physical-ai": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/physical-ai",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.005592",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/physical-ai: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/physical-ai"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/ros2": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/ros2",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.046952",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/ros2: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/ros2"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/simulation": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/simulation",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.098679",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/simulation: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/simulation"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/tutorial": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/tutorial",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.144745",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/tutorial: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/tutorial"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/vla": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/vla",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.188330",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/vla: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/tags/vla"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/vla-models-future-robotics": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/vla-models-future-robotics",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.237882",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/vla-models-future-robotics: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/vla-models-future-robotics"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/welcome-physical-ai-course": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/welcome-physical-ai-course",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.282321",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/welcome-physical-ai-course: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/blog/welcome-physical-ai-course"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/markdown-page": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/markdown-page",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.325225",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/markdown-page: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/markdown-page"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.378473",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/isaac-sim": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/isaac-sim",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.422378",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/isaac-sim: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/isaac-sim"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/nav2-navigation": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/nav2-navigation",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.469900",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/nav2-navigation: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/nav2-navigation"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/visual-slam": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/visual-slam",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.514948",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/visual-slam: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/ai-robot-brain/visual-slam"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.558656",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/physics-engines": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/physics-engines",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.603065",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/physics-engines: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/physics-engines"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/sensor-simulation": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/sensor-simulation",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.652755",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/sensor-simulation: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/sensor-simulation"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/unity-rendering": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/unity-rendering",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.699491",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/unity-rendering: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/digital-twin/unity-rendering"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/intro": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/intro",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.745812",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/intro: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/intro"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.796105",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/humanoid-urdf": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/humanoid-urdf",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.844136",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/humanoid-urdf: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/humanoid-urdf"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/python-bridging": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/python-bridging",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.889672",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/python-bridging: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/python-bridging"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/ros2-fundamentals": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/ros2-fundamentals",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:19.966087",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/ros2-fundamentals: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/robotic-nervous-system/ros2-fundamentals"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:20.011108",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/capstone": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/capstone",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:20.057135",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/capstone: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/capstone"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/cognitive-logic": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/cognitive-logic",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:20.100682",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/cognitive-logic: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/cognitive-logic"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/voice-pipeline": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/voice-pipeline",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:20.144407",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/voice-pipeline: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/docs/vision-language-action/voice-pipeline"
+  },
+  "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/": {
+    "url": "https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/",
+    "status": "failed",
+    "last_processed": "2026-01-04T16:03:20.187546",
+    "retry_count": 3,
+    "error_message": "Failed to fetch https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/: 401 Client Error: Unauthorized for url: https://aibook-wrcb-8ilebqfw5-areebaansaris-projects.vercel.app/"
+  },
+  "https://aibook-wrcb.vercel.app/": {
+    "url": "https://aibook-wrcb.vercel.app/",
+    "status": "completed",
+    "last_processed": "2026-01-04T15:31:39.925982",
+    "retry_count": 0,
+    "error_message": null
+  }
+}

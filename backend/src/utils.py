@@ -7,10 +7,12 @@ URL validation, and other shared functionality.
 import logging
 import re
 from typing import List, Optional
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
 from tqdm import tqdm
 import time
 import functools
+import requests
+from bs4 import BeautifulSoup
 
 
 def setup_logging(level: str = "INFO") -> logging.Logger:
@@ -186,6 +188,90 @@ def is_valid_url_format(url: str) -> bool:
         bool: True if URL format is valid, False otherwise
     """
     return bool(URL_PATTERN.match(url))
+
+
+def extract_urls_from_sitemap(sitemap_url: str) -> List[str]:
+    """
+    Extract all URLs from a sitemap.xml file.
+
+    Args:
+        sitemap_url: URL to the sitemap.xml file
+
+    Returns:
+        List of URLs extracted from the sitemap
+    """
+    try:
+        response = requests.get(sitemap_url, timeout=30)
+        response.raise_for_status()
+
+        # Parse the XML content - try 'xml' parser first, fall back to 'lxml' if available
+        try:
+            soup = BeautifulSoup(response.content, 'xml')
+        except:
+            # If 'xml' parser is not available, try 'lxml'
+            try:
+                soup = BeautifulSoup(response.content, 'lxml-xml')
+            except:
+                # If both fail, try regular html parser which can handle xml-like content
+                soup = BeautifulSoup(response.content, 'lxml-xml')
+
+        # Find all <url><loc> elements in the sitemap
+        url_elements = soup.find_all('loc')
+        urls = []
+
+        for url_elem in url_elements:
+            url = url_elem.text.strip()
+            if url and validate_url(url):  # Use the existing validate_url function
+                urls.append(url)
+
+        return urls
+
+    except Exception as e:
+        print(f"Error parsing sitemap {sitemap_url}: {str(e)}")
+        return []
+
+
+def extract_urls_from_sitemap_index(sitemap_index_url: str) -> List[str]:
+    """
+    Extract all URLs from a sitemap index file that may contain multiple sitemaps.
+
+    Args:
+        sitemap_index_url: URL to the sitemap index file
+
+    Returns:
+        List of all URLs from all sitemaps referenced in the index
+    """
+    try:
+        response = requests.get(sitemap_index_url, timeout=30)
+        response.raise_for_status()
+
+        # Parse the XML content - try 'xml' parser first, fall back to 'lxml' if available
+        try:
+            soup = BeautifulSoup(response.content, 'xml')
+        except:
+            # If 'xml' parser is not available, try 'lxml'
+            try:
+                soup = BeautifulSoup(response.content, 'lxml-xml')
+            except:
+                # If both fail, try regular html parser which can handle xml-like content
+                soup = BeautifulSoup(response.content, 'html.parser')
+
+        # Find all <sitemap><loc> elements in the sitemap index
+        sitemap_elements = soup.find_all('loc')
+        all_urls = []
+
+        for sitemap_elem in sitemap_elements:
+            sitemap_url = sitemap_elem.text.strip()
+            if sitemap_url and validate_url(sitemap_url):
+                # Extract URLs from each individual sitemap
+                urls = extract_urls_from_sitemap(sitemap_url)
+                all_urls.extend(urls)
+
+        return all_urls
+
+    except Exception as e:
+        print(f"Error parsing sitemap index {sitemap_index_url}: {str(e)}")
+        return []
 
 
 if __name__ == "__main__":
