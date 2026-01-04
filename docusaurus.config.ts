@@ -59,16 +59,25 @@ const config: Config = {
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl: 'https://github.com/panaversity/ai-native-book/tree/main/',
-          blogTitle: 'Physical AI Insights',
-          blogDescription: 'Latest developments in Physical AI and Humanoid Robotics',
-        },
+blog: {
+  showReadingTime: true,
+  feedOptions: {
+    type: ['rss', 'atom'],
+    xslt: true,
+  },
+  editUrl: 'https://github.com/panaversity/ai-native-book/tree/main/',
+  blogTitle: 'Physical AI Insights',
+  blogDescription: 'Latest developments in Physical AI and Humanoid Robotics',
+},
+sitemap: {
+  changefreq: 'weekly',
+  priority: 0.5,
+  filename: 'sitemap.xml',
+  ignorePatterns: [
+    '/tags/**',
+    '/search/**',
+  ],
+},
         theme: {
           customCss: './src/css/custom.css',
         },
